@@ -52,7 +52,7 @@ export default function LegalPage() {
   )
 }
 
-const CONTACT_EMAIL = 'abhishek@clarantlabs.com'
+const CONTACT_EMAIL = 'hello@clarantlabs.com'
 
 const META = 'Clarant Labs LLC · Last updated: May 2026 · Placeholder — lawyer-reviewed version publishes before launch.'
 
@@ -86,7 +86,7 @@ function PrivacyPolicy() {
       <LegalMeta />
       <LegalH3>Who we are</LegalH3>
       <LegalP>
-        Clarant Labs LLC is a software company based in Frisco, TX, operated by Abhishek. We run the Clarant budgeting app at clarant.app and this company website at clarantlabs.com.
+        Clarant Labs LLC is a software company building Clarant, an envelope budgeting app at clarant.app. This company website lives at clarantlabs.com.
       </LegalP>
       <LegalH3>What we collect</LegalH3>
       <LegalP>

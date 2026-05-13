@@ -82,7 +82,7 @@ function Footer() {
       flexWrap: 'wrap',
       gap: '0.5rem',
     }}>
-      <p style={{ fontSize: 12, color: '#888' }}>© 2026 Clarant Labs LLC · Frisco, TX</p>
+      <p style={{ fontSize: 12, color: '#888' }}>© 2026 Clarant Labs LLC</p>
       <div style={{ display: 'flex', gap: '1rem' }}>
         {[
           { href: '/about', label: 'About' },

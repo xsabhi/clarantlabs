@@ -12,6 +12,7 @@ export default function AboutPage() {
     <>
       <AboutHero />
       <FounderStory />
+      <WhatTheName />
       <WhatWeAre />
       <WaitlistCTA
         heading="Sound like what you've been looking for?"
@@ -40,7 +41,7 @@ function AboutHero() {
         <em style={{ fontStyle: 'italic' }}>actually</em> left.
       </h1>
       <p style={{ fontSize: '1.05rem', color: '#555' }}>
-        Clarant Labs is a one-person software company in Frisco, TX. This is the story of why it exists.
+        Clarant Labs is a one-person software company. This is the story of why it exists.
       </p>
     </div>
   )
@@ -56,37 +57,6 @@ function FounderStory() {
 
   return (
     <section style={{ padding: '2rem 2rem 3rem', borderTop: '0.5px solid #e8e6de' }}>
-      <div style={{
-        display: 'flex',
-        alignItems: 'flex-start',
-        gap: '1rem',
-        background: '#f9f8f5',
-        borderRadius: 12,
-        padding: '1.25rem',
-        border: '0.5px solid #e8e6de',
-        marginBottom: '1.5rem',
-      }}>
-        <div style={{
-          width: 44,
-          height: 44,
-          borderRadius: '50%',
-          background: 'var(--brand-light)',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          fontWeight: 500,
-          fontSize: 15,
-          color: 'var(--brand-dark)',
-          flexShrink: 0,
-        }}>
-          AB
-        </div>
-        <div>
-          <p style={{ fontSize: 15, fontWeight: 500, color: '#1a1a1a' }}>Abhishek</p>
-          <p style={{ fontSize: 13, color: '#888' }}>Founder · Clarant Labs LLC · Frisco, TX</p>
-        </div>
-      </div>
-
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.85rem' }}>
         {paragraphs.map((text, i) => (
           <p key={i} style={{ color: '#555' }}>{text}</p>
@@ -110,6 +80,27 @@ function FounderStory() {
           Clarant Labs builds software for people who know what they want and just need a clean, honest tool to do it. No bloat. No dark patterns. No prices that quietly drift upward. Just tools that work.
         </p>
       </blockquote>
+    </section>
+  )
+}
+
+function WhatTheName() {
+  return (
+    <section style={{ padding: '3rem 2rem', borderTop: '0.5px solid #e8e6de' }}>
+      <p style={{ fontSize: 12, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#888', marginBottom: '1rem', fontWeight: 500 }}>
+        The name
+      </p>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.85rem' }}>
+        <p style={{ color: '#555' }}>
+          Clarant is a combination of two ideas: <em>clarity</em> and <em>grant</em>.
+        </p>
+        <p style={{ color: '#555' }}>
+          Clarity, because the point of budgeting is to know exactly where you stand. No surprises, no vague unease about what you spent last month — just a clear picture.
+        </p>
+        <p style={{ color: '#555' }}>
+          Grant, because the envelope method is built on one premise: grant every dollar a specific job before you spend it. That&apos;s the thing that makes the method actually work.
+        </p>
+      </div>
     </section>
   )
 }
