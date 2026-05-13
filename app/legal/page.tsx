@@ -52,8 +52,6 @@ export default function LegalPage() {
   )
 }
 
-const CONTACT_EMAIL = 'hello@clarantlabs.com'
-
 const META = 'Clarant Labs LLC · Last updated: May 2026 · Placeholder — lawyer-reviewed version publishes before launch.'
 
 function LegalMeta() {
@@ -72,13 +70,6 @@ function LegalP({ children }: { children: React.ReactNode }) {
   return <p style={{ fontSize: 14, color: '#555', marginBottom: '0.75rem', lineHeight: 1.65 }}>{children}</p>
 }
 
-function ContactLink() {
-  return (
-    <a href={`mailto:${CONTACT_EMAIL}`} style={{ color: 'var(--brand)' }}>
-      {CONTACT_EMAIL}
-    </a>
-  )
-}
 
 function PrivacyPolicy() {
   return (
@@ -106,10 +97,6 @@ function PrivacyPolicy() {
       <LegalH3>Your rights</LegalH3>
       <LegalP>
         You can ask us to delete your data at any time. If you&apos;re in the EU or California, you have additional rights under GDPR and CCPA respectively — we&apos;ll honor them.
-      </LegalP>
-      <LegalH3>Contact</LegalH3>
-      <LegalP>
-        Questions? Email <ContactLink />. You&apos;ll hear from a real person.
       </LegalP>
     </div>
   )
@@ -142,10 +129,6 @@ function TermsOfService() {
       <LegalH3>Changes to these terms</LegalH3>
       <LegalP>
         If we make material changes, we&apos;ll notify you by email. Continuing to use the service after that means you accept the updated terms.
-      </LegalP>
-      <LegalH3>Contact</LegalH3>
-      <LegalP>
-        Questions? Email <ContactLink />.
       </LegalP>
     </div>
   )
