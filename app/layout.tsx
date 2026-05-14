@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   description:
     'Clarant Labs builds Clarant, an envelope budgeting app for people who loved the method and got priced out of it. $4/month. No surprises.',
   metadataBase: new URL('https://clarantlabs.com'),
+  icons: { icon: '/favicon.svg' },
   openGraph: {
     siteName: 'Clarant Labs',
     locale: 'en_US',
@@ -45,9 +46,7 @@ function Nav() {
       background: '#fff',
       zIndex: 100,
     }}>
-      <Link href="/" style={{ fontFamily: 'var(--font-display)', fontSize: '1.1rem', fontWeight: 500, color: '#1a1a1a' }}>
-        Clarant Labs
-      </Link>
+      <Link href="/"><img src="/logo.svg" alt="Clarant Labs" height="36" style={{height:36}} /></Link>
       <ul style={{ display: 'flex', gap: '1.5rem', listStyle: 'none' }}>
         <li><NavLink href="/">Home</NavLink></li>
         <li><NavLink href="/about">About</NavLink></li>
