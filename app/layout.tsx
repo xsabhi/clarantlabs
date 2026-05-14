@@ -47,7 +47,7 @@ function Nav() {
       zIndex: 100,
     }}>
       <Link href="/">
-        <img src="/logo-nav.svg" alt="Clarant Labs" style={{height: '48px', width: 'auto'}} />
+        <img src="/logo-nav.svg" alt="Clarant Labs" style={{height: '42px', width: 'auto'}} />
       </Link>
       <ul style={{ display: 'flex', gap: '1.5rem', listStyle: 'none', alignItems: 'center', margin: 0, padding: 0, flexShrink: 0 }}>
         <li><NavLink href="/">Home</NavLink></li>
