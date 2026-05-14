@@ -1,0 +1,32 @@
+<svg viewBox="0 0 280 48" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brand" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#24B587"/>
+      <stop offset="100%" style="stop-color:#0A5C45"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon: 44x44, centered in 48px height → y=2 -->
+  <rect x="2" y="2" width="44" height="44" rx="10" fill="url(#brand)"/>
+  <!-- Bars bottom-aligned to y=38 -->
+  <rect x="11" y="26" width="8"  height="12" rx="2" fill="white" opacity="0.4"/>
+  <rect x="23" y="19" width="8"  height="19" rx="2" fill="white" opacity="0.72"/>
+  <rect x="35" y="11" width="8"  height="27" rx="2" fill="white"/>
+
+  <!-- clarant — vertically centered to icon mid y=24 -->
+  <text x="58" y="29"
+    font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+    font-size="24"
+    font-weight="300"
+    letter-spacing="-0.5"
+    fill="#1a1a1a">clarant</text>
+
+  <!-- LABS -->
+  <text x="61" y="40"
+    font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+    font-size="8"
+    font-weight="600"
+    letter-spacing="4"
+    fill="#1D9E75">LABS</text>
+
+</svg>
