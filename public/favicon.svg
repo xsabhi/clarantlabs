@@ -6,7 +6,8 @@
     </linearGradient>
   </defs>
   <rect width="100" height="100" rx="22" fill="url(#brand)"/>
-  <rect x="16" y="62" width="18" height="26" rx="5" fill="white" opacity="0.45"/>
-  <rect x="41" y="46" width="18" height="42" rx="5" fill="white" opacity="0.72"/>
-  <rect x="66" y="28" width="18" height="60" rx="5" fill="white"/>
+  <!-- Bars bottom-aligned to y=82 -->
+  <rect x="16" y="62" width="18" height="20" rx="4" fill="white" opacity="0.4"/>
+  <rect x="41" y="48" width="18" height="34" rx="4" fill="white" opacity="0.72"/>
+  <rect x="66" y="30" width="18" height="52" rx="4" fill="white"/>
 </svg>
