@@ -3,7 +3,7 @@ import Link from 'next/link'
 const LINKS = [
   { href: '/products', label: 'Products' },
   { href: '/about', label: 'About' },
-  { href: 'mailto:hello@clarantlabs.com', label: 'Contact' },
+  { href: 'mailto:abhishek@clarantlabs.com', label: 'Contact' },
   { href: '/legal', label: 'Privacy' },
   { href: '/legal', label: 'Terms' },
 ]
@@ -39,10 +39,10 @@ export default function Footer() {
         <div className="mt-10 flex flex-col justify-between gap-2 border-t border-slate-100 pt-6 sm:flex-row">
           <p className="font-sans text-xs text-slate-400">Clarant Labs LLC · Built in Texas</p>
           <a
-            href="mailto:hello@clarantlabs.com"
+            href="mailto:abhishek@clarantlabs.com"
             className="font-sans text-xs text-slate-400 transition-colors hover:text-brand"
           >
-            hello@clarantlabs.com
+            abhishek@clarantlabs.com
           </a>
         </div>
       </div>

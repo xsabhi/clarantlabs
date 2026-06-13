@@ -6,7 +6,7 @@ import { useState } from 'react'
 const LINKS = [
   { href: '/products', label: 'Products' },
   { href: '/about', label: 'About' },
-  { href: 'mailto:hello@clarantlabs.com', label: 'Contact' },
+  { href: 'mailto:abhishek@clarantlabs.com', label: 'Contact' },
 ]
 
 export default function Nav() {

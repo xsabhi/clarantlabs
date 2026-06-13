@@ -37,10 +37,10 @@ export default function AboutPage() {
       <p className="mt-8 max-w-2xl text-lg text-slate-600">
         Get in touch:{' '}
         <a
-          href="mailto:hello@clarantlabs.com"
+          href="mailto:abhishek@clarantlabs.com"
           className="text-brand transition-colors hover:text-brand-dark"
         >
-          hello@clarantlabs.com
+          abhishek@clarantlabs.com
         </a>
       </p>
     </div>

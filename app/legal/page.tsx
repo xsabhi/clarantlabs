@@ -18,10 +18,10 @@ export default function LegalPage() {
             clarantlabs.com and clarant.app. This page will be updated with a full privacy
             policy prior to accepting user data. For questions:{' '}
             <a
-              href="mailto:hello@clarantlabs.com"
+              href="mailto:abhishek@clarantlabs.com"
               className="text-brand transition-colors hover:text-brand-dark"
             >
-              hello@clarantlabs.com
+              abhishek@clarantlabs.com
             </a>
           </p>
         </article>
@@ -34,10 +34,10 @@ export default function LegalPage() {
             products are not financial advisors. Nothing on this site constitutes financial
             advice. For questions:{' '}
             <a
-              href="mailto:hello@clarantlabs.com"
+              href="mailto:abhishek@clarantlabs.com"
               className="text-brand transition-colors hover:text-brand-dark"
             >
-              hello@clarantlabs.com
+              abhishek@clarantlabs.com
             </a>
           </p>
         </article>
